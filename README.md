@@ -12,7 +12,7 @@ Este sistema foi feito para uma Oficina Mecânica e também para um projeto da m
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
 
-- [x] Deixar o sistema mais intuitivo e com a aparência melhor;
+- [x] Deixar o sistema mais intuitivo, responsivo e com a aparência melhor;
 - [x] Adicionar novas funcionalidades mais complexas;
 - [x] Deixar o sistema mais rápido e otimizado;
 
