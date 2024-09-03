@@ -1,0 +1,158 @@
+:root{
+    --principal-color: rgb(49, 49, 49);
+    --second-color: #1b1919;
+    --third-color: #333333;;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+html, body{
+    height: 100%;
+}
+
+header{
+    background-color: var(--third-color);
+    padding: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.info-header{
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+.info-header a{
+    text-decoration: none;
+    color: white;
+}
+.name h3{
+    cursor: pointer;
+}
+.name h3:hover{
+    opacity: 0.7;
+}
+.info-header .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 8px;
+}
+.icone{
+    cursor: pointer;
+}
+.info-header svg{
+    margin: 0 10px;
+}
+.info-header svg:hover{
+    opacity: 0.7;
+}
+
+.icons-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.icons-header svg{
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.sidebar{
+    padding: 0px 8px;
+    width: 20%;
+    background-color: var(--second-color);
+    height: 100%;
+}
+.sidebar a.sidebar-active{
+    border-left: 4px solid #ff0000;
+    background-color: #535252;
+    color: #222;
+    font-weight: bold;
+}
+.sidebar a.sidebar-active > svg{
+    background-color: #535252;
+    color: #222;
+    font-weight: bold;
+}
+.sidebar a:hover{
+    border-left: 4px solid #ff0000;
+    background-color: #535252;
+    color: #222;
+    font-weight: bold;
+}
+.sidebar h3{
+    color: var(--third-color);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #535252;
+}
+.sidebar a>svg{
+    color: #ff0000;
+}
+.sidebar a:hover .siderbar a > svg{
+    color: #777;
+}
+.content{
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+}
+.section-title{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.section-title h2{
+    font-size: 19px;
+}
+.section-title p{
+    font-size: 14px;
+    color: var(--second-color);
+}
+.section-title svg{
+    color: #ff0000;
+}
+.separator{
+    width: 100%;
+    height: 1px;
+    background-color: #ff0000;
+}
+.box-info{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-info-single{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: black;
+    width: 100%;
+    margin: 0 10px;
+    padding: 30px;
+}
+.box-info-single svg{
+    font-size: 50px;
+}
