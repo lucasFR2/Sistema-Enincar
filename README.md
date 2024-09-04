@@ -33,7 +33,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 <table>
   <tr>
     <td align="center">
-      <a href="#" title="defina o título do link">
+      <a href="https://www.linkedin.com/in/lucasfirminorodrigues/" title="link linkedin">
         <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
           <b>Lucas Firmino Rodrigues</b>
